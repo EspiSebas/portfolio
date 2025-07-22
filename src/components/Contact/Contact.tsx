@@ -1,6 +1,6 @@
 export const Contact = () => {
   return (
-    <section>
+    <section id="contact">
       <h2 className="text-center mb-4">Contacto</h2>
 
       <div className="row justify-content-center" style={{ maxWidth: 600, margin: "0 auto" }}>

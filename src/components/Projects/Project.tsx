@@ -19,7 +19,7 @@ export const Project = () => {
   return (
     <>
      <h2 className='text-center' >Proyectos</h2>
-    <section className={styles.project}>
+    <section id="project" className={styles.project}>
       { projects.map((project, index) => (
       <div className="card" style={{width: 300}}>
           <div key={index}>
@@ -27,11 +27,13 @@ export const Project = () => {
             <p className="card-text">{project.description}</p>
             <a href={project.github} className="text-blue-600 mt-2 inline-block">🔗 GitHub</a>
           </div>
-        
-        
       </div>
       ))}
     </section>
+    <div className={styles.project}>
+      <button className='btn btn-primary'>Ver mas</button>
+    </div>
+    
   </>
   )
 }
