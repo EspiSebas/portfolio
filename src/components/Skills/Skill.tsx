@@ -33,7 +33,8 @@ const projects = [
 
 export const Skill = () => {
   return (
-    <>
+   <>
+      <div className={styles.principal}>
       <h2 className='text-center' >Habilidades</h2>
       <section id="project" className={styles.skill}>
         {projects.map((project, index) => (
@@ -50,6 +51,7 @@ export const Skill = () => {
         ))}
 
       </section>
+      </div>
     </>
   )
 }

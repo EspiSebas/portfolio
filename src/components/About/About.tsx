@@ -1,12 +1,49 @@
+import { useState } from 'react';
 import styles from '../About/About.module.css';
 
 export const About = () => {
- return (
-    <section id="about" className={styles.contenedor}>
-      <h2>Sobre mí</h2>
-      <p>
-        Soy un desarrollador backend especializado en Node.js, NestJS y bases de datos relacionales. Trabajo remoto desde Colombia y disfruto resolver problemas con código limpio y escalable.
-      </p>
-    </section>
+  const [activeTab, setActiveTab] = useState('experience')
+  const renderTabContent = () => {
+    switch (activeTab) {
+      case 'about':
+        return <p>Bienvenido a Home</p>;
+      case 'experience':
+        return <p>Este es tu perfil</p>;
+      case 'education':
+        return <p>Sena</p>;
+      default:
+        return <p>Tab no encontrado</p>;
+    }
+  };
+  return (
+    <>
+      <div id='about' className={styles.principal}>
+        <h1 className='text-center'>Sobre mi</h1>
+        <section className={styles.contenedor}>
+          <div>
+            <div className={styles.botones}>
+              <button
+                onClick={() => setActiveTab("experience")}
+              >
+                Experiencia
+              </button>
+              <button
+                onClick={() => setActiveTab("about")}
+                className={`${styles.tab} ${activeTab === "about" ? styles.active : ""}`}
+              >
+                Sobre mi
+              </button>
+              <button
+                onClick={() => setActiveTab("education")}
+                className={`${styles.tab} ${activeTab === "education" ? styles.active : ""}`}
+              >
+                Educacion
+              </button>
+            </div>
+          </div>
+          <div> {renderTabContent()}</div>
+        </section>
+      </div>
+    </>
   )
 }

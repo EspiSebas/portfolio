@@ -9,7 +9,7 @@ export const Contact = () => {
           <input type="text" className="form-control" id="email1" placeholder="nombre@correo.com" />
         </div>
 
-        <div className="col-md-6 mb-3">
+        <div className="col-md-6 m b-3">
           <label htmlFor="name" className="form-label">Correo</label>
           <input type="email" className="form-control" id="email2" placeholder="nombre@correo.com" />
         </div>
@@ -17,8 +17,11 @@ export const Contact = () => {
           <label htmlFor="exampleFormControlTextarea1" className="form-label">Ingrese el asunto</label>
           <textarea className="form-control" id="exampleFormControlTextarea1" rows={3}></textarea>
         </div>
+        <div className="justify-content-center mb-3">
+          <button className="btn btn-primary">Enviar</button>
+        </div>
       </div>
-    
+      
     </section>
   );
 };

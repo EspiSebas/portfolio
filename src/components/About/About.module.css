@@ -1,8 +1,20 @@
 .contenedor {
-      
       background: white;
-      padding-top: 40px ;
-      padding-bottom: 40px ;
+      padding-top: 40px;
+      padding-bottom: 40px;
       min-width: 300px;
       text-align: center;
+      display: flex;
+      justify-content: space-evenly;
+}
+
+.botones {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+}
+
+.principal {
+      text-align: center;
+      height: 100vh;
 }
