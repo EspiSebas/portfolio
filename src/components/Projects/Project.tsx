@@ -19,12 +19,7 @@ const projects = [
     tech: ["Django", "SQLite", "Tailwind"],
     github: "#"
   },
-  {
-    title: "Portfolio Personal",
-    description: "Página web con proyectos, contacto y experiencia.",
-    tech: ["React", "Vite", "Bootstrap"],
-    github: "#"
-  }
+  
 ];
 
 const urlGitHub = "https://github.com/EspiSebas";

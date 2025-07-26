@@ -5,16 +5,89 @@
       min-width: 300px;
       text-align: center;
       display: flex;
-      justify-content: space-evenly;
+      justify-content: space-around;
+      gap:20px
 }
 
 .botones {
       display: flex;
       flex-direction: column;
-      justify-content: flex-end;
+      justify-content: space-evenly;
+      gap:20px
 }
 
 .principal {
       text-align: center;
-      height: 100vh;
+      height: 75vh;
+}
+
+
+.experience {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.cardsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: center;
+
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 400px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+  color: #2c3e50;
+}
+
+.cardText {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.cardDuration {
+  font-size: 0.9rem;
+  color: #888;
+  font-style: italic;
+}
+
+.tabButton {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: 2px solid transparent;
+  background-color: #f1f1f1;
+  color: #333;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tabButton:hover {
+  background-color: #e0e0e0;
+}
+
+.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
 }
