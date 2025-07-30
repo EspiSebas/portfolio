@@ -1,12 +1,12 @@
-import styles from '../NavBar/NavBar.module.css'
+
 export const NavBar = () => {
 
     return (
         <nav>
-            <div className={styles.navtabswrapper}>
+            <div>
                 <ul className="nav nav-tabs nav-tabs-custom">
                     <li className="nav-item">
-                        <a className="nav-link active" href="#">Home</a>
+                        <a className="nav-link" href="#">Home</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#about">About me</a>

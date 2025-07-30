@@ -1,0 +1,10 @@
+.contenedorFooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    border-top-style: solid;
+    border-width: 2px;
+
+
+}

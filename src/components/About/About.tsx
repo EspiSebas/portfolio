@@ -6,7 +6,22 @@ export const About = () => {
   const renderTabContent = () => {
     switch (activeTab) {
       case 'about':
-        return <p>Bienvenido a Home</p>;
+        return (
+          <section className={styles.aboutsection}>
+  <div className="container">
+    <div className="card shadow-lg border-0 rounded-4 p-4">
+      <p className={styles.textAbout}>
+        Soy un <span className="fw-semibold text-dark">desarrollador backend</span> enfocado en crear soluciones limpias, escalables y bien documentadas. Tengo experiencia en la integración y consumo de APIs, así como un enfoque metódico en la depuración y mejora continua del código.
+        <br /><br />
+        Aunque mi especialidad es el backend, también cuento con conocimientos en <span className="fw-semibold text-dark">frontend</span>, lo que me permite comprender el flujo completo de las aplicaciones y colaborar de forma más efectiva con equipos multidisciplinarios.
+        <br /><br />
+        Disfruto trabajar en equipo, compartir conocimientos y aprender de cada experiencia colaborativa. Domino bases de datos relacionales y no relacionales, y me mantengo en constante actualización con nuevas herramientas y tecnologías.
+      </p>
+    </div>
+  </div>
+</section>
+
+        );
       case 'experience':
         return (
           <>

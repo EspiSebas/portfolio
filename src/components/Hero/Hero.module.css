@@ -6,9 +6,13 @@
 }
 
 .contenedor {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    height: 60vh;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  color: #212529;
+   max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
 }
