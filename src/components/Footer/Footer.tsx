@@ -5,18 +5,23 @@ import linkedin from '../../assets/linkedin.svg'
 
 const urlGit = 'https://github.com/EspiSebas'
 const urlLinkedin = 'https://www.linkedin.com/in/sebastian-espinosa-dev/'
+
 export const Footer = () => {
   return (
-    <div className={styles.contenedorFooter}>
-        <div >
-            <p>sebasespinosa2016@gmail.com <img src={gmail} width={20} alt="" /></p>
-        </div>
-        <div>
-            <a href={urlGit}><img src={git} alt="" width={20}/></a>
-        </div>
-        <div>
-           <a href={urlLinkedin}><img src={linkedin} alt="" width={20}/></a>
-        </div>
-    </div>
+    <footer className={styles.contenedorFooter}>
+      <p>
+        <img src={gmail} width={20} alt="Gmail" />
+        sebasespinosa2016@gmail.com
+      </p>
+      <div className={styles.iconos}>
+        <a href={urlGit} target="_blank" rel="noopener noreferrer">
+          <img src={git} alt="GitHub" />
+        </a>
+        <a href={urlLinkedin} target="_blank" rel="noopener noreferrer">
+          <img src={linkedin} alt="LinkedIn" />
+        </a>
+      </div>
+      <span className={styles.copy}>© 2025 Sebastián Espinosa</span>
+    </footer>
   )
 }

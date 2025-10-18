@@ -1,8 +1,8 @@
-
+import styles from '../NavBar/NavBar.module.css'
 export const NavBar = () => {
 
     return (
-        <nav>
+        <nav className={styles.contenedorCenter}>
             <div>
                 <ul className="nav nav-tabs nav-tabs-custom">
                     <li className="nav-item">

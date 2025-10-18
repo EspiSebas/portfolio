@@ -1,0 +1,35 @@
+.contenedorCenter {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-tabs-custom .nav-link {
+  color: #e2e8f0;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-tabs-custom .nav-link:hover {
+  color: #38bdf8; 
+  transform: scale(1.05);
+}
+
+.nav-tabs-custom .nav-link.active {
+  color: #38bdf8;
+  border-color: #38bdf8;
+  background: transparent;
+}
+
+
+body {
+  padding-top: 50px; 
+}

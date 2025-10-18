@@ -2,22 +2,28 @@ import styles from './Project.module.css';
 
 const projects = [
   {
-    title: "Ecommerce NestJS",
-    description: "Plataforma de compras con pasarela de pagos e integración con Google Calendar.",
-    tech: ["NestJS", "MySQL", "ePayco API"],
-    github: "#"
+    title: "Store NestJS",
+    description: "Api para la gestion de una tienda, ingreso de articulos, marcas, carrito de ventas y clientes",
+    tech: ["NestJS", "MySQL"],
+    github: "https://github.com/EspiSebas/ecommerce-back"
   },
   {
-    title: "Gestor de Tareas React",
-    description: "Asignación y seguimiento de tareas para equipos de desarrollo.",
-    tech: ["React", "TypeScript", "Bootstrap"],
-    github: "#"
+    title: "TaskManager Api",
+    description: "Api para asignación y seguimiento de tareas para equipos de desarrollo.",
+    tech: ["NestJs", "TypeScript"],
+    github: "https://github.com/EspiSebas/TaskManager"
   },
   {
-    title: "Blog con Django",
-    description: "Gestión de contenido con panel de administración personalizado.",
-    tech: ["Django", "SQLite", "Tailwind"],
-    github: "#"
+    title: "RepWheels",
+    description: "Gestión de citas, compra e inventario de talleres automotrices.",
+    tech: ["Django", "SQLite", "HTML"],
+    github: "https://github.com/EspiSebas/RepWheels"
+  },
+  {
+    title: "Gestion de Tareas",
+    description: "Interfaces para la gestion de tareas consumiendo la API creada con Nest",
+    tech: ["React", "Bootstrap", "CSS"],
+    github: "https://github.com/EspiSebas/TaskManager-Frontend"
   },
   
 ];

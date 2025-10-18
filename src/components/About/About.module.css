@@ -1,6 +1,6 @@
 .contenedor {
       background: white;
-      padding-top: 40px;
+      padding-top: 60px;
       padding-bottom: 40px;
       min-width: 300px;
       text-align: center;
@@ -17,8 +17,8 @@
 }
 
 .principal {
-      text-align: center;
-      height: 75vh;
+  text-align: center;
+  height: 85vh;
 }
 
 
