@@ -2,16 +2,16 @@ import styles from './Project.module.css';
 
 const projects = [
   {
-    title: "Store NestJS",
-    description: "Api para la gestion de una tienda, ingreso de articulos, marcas, carrito de ventas y clientes",
-    tech: ["NestJS", "MySQL"],
-    github: "https://github.com/EspiSebas/ecommerce-back"
+    title: "SaaS Multi Tiendas",
+    description: "APi rest para el manejo y administracion de invetario y ventas. Tiene su respectivo front-end",
+    tech: ["Spring Boot", "MySQL","Java"],
+    github: "https://github.com/EspiSebas/SaasMultiTent"
   },
   {
-    title: "TaskManager Api",
-    description: "Api para asignación y seguimiento de tareas para equipos de desarrollo.",
-    tech: ["NestJs", "TypeScript"],
-    github: "https://github.com/EspiSebas/TaskManager"
+    title: "Calculadora Salarial",
+    description: "Aplicativo web para subir el archivo de excel correspondiente a las horas trabajadas y calcular salario",
+    tech: ["Python"],
+    github: "https://github.com/EspiSebas/Calculadora_salarial"
   },
   {
     title: "RepWheels",
@@ -20,10 +20,24 @@ const projects = [
     github: "https://github.com/EspiSebas/RepWheels"
   },
   {
-    title: "Gestion de Tareas",
-    description: "Interfaces para la gestion de tareas consumiendo la API creada con Nest",
-    tech: ["React", "Bootstrap", "CSS"],
-    github: "https://github.com/EspiSebas/TaskManager-Frontend"
+    title: "Microservicio Stock",
+    description: "API rest creada con arquitectura hexagonal para gestionar el inventario",
+    tech: ["Spring Boot", "SQL", "Java"],
+    github: "https://github.com/EspiSebas/MicroserviceStock"
+  },
+
+  {
+    title: "Administracion de Tickets",
+    description: "Creacion de ticekts para la asignacion de agentes",
+    tech: ["React", "Express", "CSS", "Bootstrap","SQL"],
+    github: "https://github.com/EspiSebas/basicsystemtickets"
+  },
+  
+  {
+    title: "API Logs",
+    description: "Registra en el log los endpoints consumidos de una API externa y permite las operaciones de crud",
+    tech: ["Spring Boot", "Java", "SQL"],
+    github: "https://github.com/EspiSebas/Api-Logs"
   },
   
 ];

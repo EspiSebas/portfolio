@@ -1,4 +1,4 @@
-import resume from '../../assets/CV Sebastian.pdf';
+import resume from '../../assets/CVSebastianEspinosaDeveloperJunior.pdf';
 import styles from '../Hero/Hero.module.css';
 
 export const Hero = () => {

@@ -1,37 +1,71 @@
-.skill{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    padding-bottom: 5%;
-    
+.skill {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-bottom: 5%;
 }
+
 
 .card {
   margin: 1rem;
-  padding: 1rem;
-  border-radius: 10px;
-  background-color: #ffffff;
-  border: 1px solid black;
+  padding: 1.5rem;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #ffffff, #f1f5f9);
+  border: none;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+
+.card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 15px 35px rgba(56, 189, 248, 0.3);
 }
 
 .gridIcons {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  margin-top: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  gap: 1.2rem;
+  margin-top: 1.5rem;
 }
 
 .logoWrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.logoWrapper:hover {
+  transform: scale(1.2);
+}
+
+/* Contenedor principal */
+.principal {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 5%;
+}
+
+.card h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #0f172a;
 }
 
 
-.principal {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 5%;
+@media (max-width: 768px) {
+  .skill {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 350px;
+  }
 }

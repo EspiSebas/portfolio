@@ -42,9 +42,15 @@ export const About = () => {
                   </p>
                   <span className={styles.cardDuration}>6 meses</span>
                 </div>
+                <div className={styles.card}>
+                  <h5 className={styles.cardTitle}>Agencia</h5>
+                  <p className={styles.cardText}>
+                   Desarrollador FullStack encargado de las interfaces y creacion de API RestFul con la respectiva documentacion en Swagger
+                  </p>
+                  <span className={styles.cardDuration}>6 meses</span>
+                </div>
               </div>
             </section>
-
 
           </>
         );
@@ -66,7 +72,7 @@ export const About = () => {
               </div>
               <div className={styles.cardsWrapper}>
                 <div className={styles.card}>
-                  <h5 className={styles.cardTitle}>Tecnologia</h5>
+                  <h5 className={styles.cardTitle}>Curso</h5>
                   <p className={styles.cardText}>
                     Variables y estructuras de control en Python
                   </p>
