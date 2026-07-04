@@ -46,7 +46,7 @@ const urlGitHub = "https://github.com/EspiSebas";
 
 export const Project = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="project">
       <h2 className={styles.title}>Proyectos</h2>
       <div className={styles.grid}>
         {projects.map((project, index) => (

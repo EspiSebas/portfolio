@@ -3,7 +3,7 @@ import styles from '../Hero/Hero.module.css';
 
 export const Hero = () => {
   return (
-    <section className={styles.contenedor}>
+    <section id="home" className={styles.contenedor}>
       <div className="container">
         <h1 className="display-4 fw-bold">Sebastián</h1>
         <p className="lead text-muted mb-4">Desarrollador de Software</p>
