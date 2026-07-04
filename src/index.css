@@ -44,6 +44,11 @@ html {
   scroll-behavior: smooth;
 }
 
+section,
+[id] {
+  scroll-margin-top: 90px;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
