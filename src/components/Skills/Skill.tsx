@@ -36,7 +36,7 @@ export const Skill = () => {
    <>
       <div className={styles.principal}>
       <h2 className='text-center' >Habilidades</h2>
-      <section id="project" className={styles.skill}>
+      <section id="skill" className={styles.skill}>
         {projects.map((project, index) => (
           <div className={styles.card} style={{ width: 300 }} key={index}>
             <h3 className="card-title">{project.title}</h3>

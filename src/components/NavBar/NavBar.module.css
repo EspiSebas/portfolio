@@ -28,7 +28,10 @@
     gap: 2rem;
 }
 
-.navLinks li a {
+.navLinks li button {
+    background: none;
+    border: none;
+    cursor: pointer;
     text-decoration: none;
     color: #e2e8f0;
     font-weight: 500;
@@ -36,12 +39,12 @@
     position: relative;
 }
 
-
-.navLinks li a:hover {
+.navLinks li button:hover {
     color: #38bdf8;
 }
 
-.navLinks li a::after {
+
+.navLinks li button::after {
     content: "";
     position: absolute;
     width: 0%;
@@ -52,7 +55,7 @@
     transition: 0.3s;
 }
 
-.navLinks li a:hover::after {
+.navLinks li button:hover::after {
     width: 100%;
 }
 
